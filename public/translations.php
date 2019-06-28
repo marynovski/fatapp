@@ -1,5 +1,6 @@
 <?php
     $translations = [
+        'default' => 'pl',
         'pl' => [
             'lang' => 'pl',
             'team' => 'Zespół',
