@@ -45,5 +45,6 @@
             include_once('templates/' . $template . '.html.php');
         }
 ?>
+    <footer id="footer">FatApp &copy; <?php $actualYear = new DateTime(); echo $actualYear->format('Y'); ?></footer>
     </body>
 </html>

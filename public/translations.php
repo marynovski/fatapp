@@ -14,7 +14,9 @@
             'ourProjects' => 'Nasze projekty',
             'checkOurProjects' => 'Obczaj nasze projekty',
             'contactUs' => 'Skontaktuj się z nami',
-            'adminEnterAlert' => 'Skoro tu jesteś, to chyba wiesz po co ;)'
+            'adminEnterAlert' => 'Skoro tu jesteś, to chyba wiesz po co ;)',
+            'username'        => 'Nazwa lub email użytkownika',
+            'password' => 'Hasło',
         ],
         'en' => [
             'lang' => 'en',
@@ -29,7 +31,26 @@
             'ourProjects' => 'Our projects',
             'checkOurProjects' => 'Check our projects',
             'contactUs' => 'Contact us',
-            'adminEnterAlert' => 'So if u are here, it means you know what to do ;)'
+            'adminEnterAlert' => 'So if u are here, it means you know what to do ;)',
+            'username'        => 'Username or email',
+            'password'        => 'Password',
+        ],
+        'de' => [
+            'lang' => 'de',
+            'team' => 'Team',
+            'projects' => 'Projekte',
+            'contact'  => 'Kontakt',
+            'login'    => 'Einloggen',
+            'admin'    => 'Admin',
+            'adminPanel' => 'Administrationsmenü',
+            'fatAppTeam' => 'FatApp Team',
+            'meetOurTeam' => 'Triff unser Team',
+            'ourProjects' => 'Unsere Projekte',
+            'checkOurProjects' => 'Prüfen Sie unsere Projekte',
+            'contactUs' => 'Kontaktiere uns',
+            'adminEnterAlert' => 'Wenn Sie also hier sind, wissen Sie, was zu tun ist ;)',
+            'username'        => 'Benutzername oder E-Mail-Adresse',
+            'password'        => 'Passwort',
         ],
     ];
     return $translations;
