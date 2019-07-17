@@ -3,6 +3,7 @@
 </header>
 <main id="team-members">
 <?php
+    echo Repository::getAllUsers();
     $user = new User();
     $users = $user->getAllUsers();
     foreach ($users as $user) {
