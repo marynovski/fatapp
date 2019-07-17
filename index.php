@@ -1,4 +1,5 @@
 <?php include('public/translations.php'); if(empty($_GET['lang'])) { $lang = $translations['default']; } else { $lang = $_GET['lang']; } ?>
+<?php include('src/Entity/User.php'); ?>
 <!Doctype html>
 <html lang="<?php echo $lang; ?>">
     <head>
