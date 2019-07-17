@@ -17,6 +17,7 @@
             'adminEnterAlert'   => 'Skoro tu jesteś, to chyba wiesz po co ;)',
             'username'          => 'Nazwa lub email użytkownika',
             'password'          => 'Hasło',
+            'loginSection'      => 'Logowanie'
         ],
         'en' => [
             'lang'              => 'en',
@@ -34,6 +35,7 @@
             'adminEnterAlert'   => 'So if u are here, it means you know what to do ;)',
             'username'          => 'Username or email',
             'password'          => 'Password',
+            'loginSection'      => 'Log in'
         ],
         'de' => [
             'lang'              => 'de',

@@ -1,5 +1,8 @@
+<header id="page-header">
+    <h2><?php echo $translations[$lang]['loginSection']; ?></h2>
+</header>
 <section id="login-form">
-    <form method="POST" action="">
+    <form method="POST" action="src/login.php">
         <label for="username"><?php echo $translations[$lang]['username']; ?></label>
         <input type="text" name="username">
 
