@@ -6,5 +6,13 @@
             'methods_allowed' => [
                 'get',
             ],
-        ]
+        ],
+        'login' => [
+            'controller'      => 'SecurityController',
+            'function'        => 'login',
+            'methods_allowed' => [
+                'get',
+                'post',
+            ],
+        ],
     ];
