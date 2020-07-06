@@ -8,12 +8,10 @@ error_reporting(-1);
 require_once '../vendor/autoload.php';
 include_once '../config/routes.php';
 
-
-
 $route = $_GET['route'];
 
 if (empty($route)) {
-    $route = "homepage";
+    $route = 'homepage';
 }
 
 $controllerName = 'App\\Controller\\'.$routes[$route]['controller'];

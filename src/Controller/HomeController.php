@@ -13,6 +13,15 @@ class HomeController extends Controller
      */
     public function home()
     {
-        return $this->render("homepage/homepage.html.php", []);
+
+        $user = new User();
+        $user->setId(1);
+        $user->setUsername('kamistal1');
+        $user->setEmail('kamistal1@wp.pl');
+
+        return $this->render("homepage/homepage.html.php", [
+            'user' => $user,
+            'appName' => 'FatApp'
+        ]);
     }
 }
